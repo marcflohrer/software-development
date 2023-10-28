@@ -1078,7 +1078,8 @@ The SolarWinds incident underscores the necessity for a proactive and layered ap
 
 - May produce false positives.
 - Requires access to source code.
-- Dynamic Application Security Testing (DAST):
+
+#### Dynamic Application Security Testing (DAST)
 
 **Pros:**
 
@@ -1089,7 +1090,8 @@ The SolarWinds incident underscores the necessity for a proactive and layered ap
 
 - May miss vulnerabilities not exposed in publicly facing parts of the application.
 - Typically conducted later in the development cycle, making fixing issues more costly.
-- Interactive Application Security Testing (IAST):
+
+#### Interactive Application Security Testing (IAST)
 
 **Pros:**
 
@@ -1101,7 +1103,7 @@ The SolarWinds incident underscores the necessity for a proactive and layered ap
 - May require more setup and configuration.
 - Can be slower than SAST or DAST alone.
 
-**Other Useful Tools:**
+#### Other Useful Tools
 
 - Dependency Checkers: Tools like OWASP Dependency-Check can identify known vulnerabilities in third-party libraries and dependencies.
 - Security Linters: Security-focused linters can provide instant feedback on code security as developers write code.
