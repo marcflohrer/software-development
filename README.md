@@ -154,7 +154,7 @@ Combining descriptive naming with consistency and pronounceability creates a pow
   
 - **Smells and Anti-Patterns:** Identifying symptoms of poor design like rigidity, immobility, needless complexity, and others is crucial for maintaining a clean codebase.
 
-### Chapter Z: Functions
+### Functions
 
 The function is a fundamental building block of programming, encapsulating a sequence of instructions into a reusable, named group. Well-designed functions are critical for creating clean, maintainable, and efficient code. This chapter delves into the principles that underpin effective function design and implementation.
 
