@@ -72,7 +72,7 @@ When a method or class overextends itself, trying to juggle too many responsibil
 
 A class should have a clear, singular purpose. When a class is scattered with unrelated responsibilities, it lacks cohesion, indicating a need for refactoring.
 
-#### Inconsistent Abstraction Levels:
+#### Inconsistent Abstraction Levels
 
 A cluttered interface, mingling high-level concepts with low-level details, disrupts the clean abstraction layers essential for a well-structured codebase.
 
@@ -80,7 +80,7 @@ A cluttered interface, mingling high-level concepts with low-level details, disr
 
 A lengthy parameter list in a method is often a sign of over-complication, hinting at a need to refactor for simplicity and clarity.
 
-#### Parallel Inheritance Hierarchies:
+#### Parallel Inheritance Hierarchies
 
 When changes necessitate parallel modifications across multiple classes, it's a signal to reconsider and refactor the inheritance structure for better alignment and ease of maintenance.
 
@@ -138,7 +138,7 @@ The ease with which names can be pronounced may seem trivial, yet it plays a vit
 
 #### Bringing It All Together - The Power of Descriptive, Consistent, and Pronounceable Names
 
-Combining descriptive naming with consistency and pronounceability creates a powerful trio that significantly enhances the readability and maintainability of code. 
+Combining descriptive naming with consistency and pronounceability creates a powerful trio that significantly enhances the readability and maintainability of code.
 
 - **Code as Documentation**: When naming conventions are followed diligently, the code itself becomes a form of documentation, reducing the need for external documentation.
 - **Professionalism**: Adhering to clear and consistent naming conventions reflects a level of professionalism and maturity in software development.
@@ -332,13 +332,13 @@ With the swift pace of technological advancements, developers now have an array 
 
 Integrated Development Environments (IDEs): Modern IDEs come with advanced debugging, testing, and version control features, ensuring that developers can work efficiently and catch errors early in the development process.
 
-* Version Control Systems (VCS): Tools like Git allow developers to track changes, revert to previous versions, and work concurrently on different features, enhancing the collaborative aspect of development.
+- Version Control Systems (VCS): Tools like Git allow developers to track changes, revert to previous versions, and work concurrently on different features, enhancing the collaborative aspect of development.
 
-* Continuous Integration/Continuous Deployment (CI/CD) Tools: These tools automate testing and deployment, ensuring that code changes are automatically tested and deployed to production, thus speeding up the development cycle and ensuring the reliability of the software.
+- Continuous Integration/Continuous Deployment (CI/CD) Tools: These tools automate testing and deployment, ensuring that code changes are automatically tested and deployed to production, thus speeding up the development cycle and ensuring the reliability of the software.
 
-* Static Code Analysis Tools: By analyzing code without executing it, these tools identify bugs, code smells, and ensure adherence to coding standards, thus maintaining a high level of code quality.
+- Static Code Analysis Tools: By analyzing code without executing it, these tools identify bugs, code smells, and ensure adherence to coding standards, thus maintaining a high level of code quality.
 
-* Dynamic Analysis Tools: These tools, on the other hand, analyze the code while it's running, identifying issues like memory leaks that static analysis tools might miss.
+- Dynamic Analysis Tools: These tools, on the other hand, analyze the code while it's running, identifying issues like memory leaks that static analysis tools might miss.
 
 ### Prioritizing Technical Debt with CodeScene and Similar Tools
 
@@ -406,15 +406,15 @@ Each of these tools has its unique features and strengths. Teams should evaluate
 
 Development practices have evolved to become more collaborative and iterative, focusing on delivering value continuously.
 
-* Agile Development: Agile promotes adaptive planning, evolutionary development, early delivery, and continuous improvement, encouraging rapid and flexible responses to change.
+- Agile Development: Agile promotes adaptive planning, evolutionary development, early delivery, and continuous improvement, encouraging rapid and flexible responses to change.
 
-* DevOps: Bridging the gap between development and operations, DevOps promotes a culture of collaboration and communication between these traditionally siloed teams, supported by automated processes.
+- DevOps: Bridging the gap between development and operations, DevOps promotes a culture of collaboration and communication between these traditionally siloed teams, supported by automated processes.
 
-* Test-Driven Development (TDD): This practice encourages writing tests before writing the code, ensuring that code is correct as it's written.
+- Test-Driven Development (TDD): This practice encourages writing tests before writing the code, ensuring that code is correct as it's written.
 
-* Behavior-Driven Development (BDD): BDD extends TDD by writing tests that describe the behavior of the system from the user's perspective, promoting understanding and communication among teams.
+- Behavior-Driven Development (BDD): BDD extends TDD by writing tests that describe the behavior of the system from the user's perspective, promoting understanding and communication among teams.
 
-* Code Reviews: Regular code reviews ensure that code quality remains high, bugs are caught early, and developers learn from each other.
+- Code Reviews: Regular code reviews ensure that code quality remains high, bugs are caught early, and developers learn from each other.
 
 ### Continuous Integration and Continuous Delivery (CI/CD)
 
@@ -457,22 +457,22 @@ DORA metrics are a set of key metrics identified by the DevOps Research and Asse
 
 #### The Four Key Metrics
 
-* **Deployment Frequency (DF):** The frequency at which software is deployed to production or released to end-users.
-* **Lead Time for Changes (LT):** The amount of time it takes from a code change being committed to the code being successfully deployed in production.
-* **Time to Restore Service (TRS):** The time it takes to restore service after a service incident or outage.
-* **Change Failure Rate (CFR):** The percentage of changes that fail.
-  
+- **Deployment Frequency (DF):** The frequency at which software is deployed to production or released to end-users.
+- **Lead Time for Changes (LT):** The amount of time it takes from a code change being committed to the code being successfully deployed in production.
+- **Time to Restore Service (TRS):** The time it takes to restore service after a service incident or outage.
+- **Change Failure Rate (CFR):** The percentage of changes that fail.
+
 ##### Benefits
 
-* Insightful Performance Measurement: Providing a data-driven approach to measuring the performance of software delivery and operational processes.
-* Improvement Over Time: Tracking these metrics over time helps in understanding the impact of changes to processes, practices, and tooling.
-* Benchmarking: Organizations can compare their performance against industry benchmarks or other organizations.
+- Insightful Performance Measurement: Providing a data-driven approach to measuring the performance of software delivery and operational processes.
+- Improvement Over Time: Tracking these metrics over time helps in understanding the impact of changes to processes, practices, and tooling.
+- Benchmarking: Organizations can compare their performance against industry benchmarks or other organizations.
 
 ##### Utilization
 
-* Automation: Automate the collection and reporting of these metrics to ensure accuracy and consistency.
+- Automation: Automate the collection and reporting of these metrics to ensure accuracy and consistency.
 Regular Review: Conduct regular reviews of these metrics to identify areas for improvement and to track progress against goals.
-* Cross-functional Discussions: Engage in cross-functional discussions to derive actionable insights from these metrics.
+- Cross-functional Discussions: Engage in cross-functional discussions to derive actionable insights from these metrics.
 
 Including the DORA metrics section here aligns with the broader theme of measuring and improving development practices through data-driven insights, and it complements the discussions on CI/CD by providing a framework for measuring the effectiveness of these practices.
 
@@ -484,25 +484,25 @@ The DORA metrics not only provide a measurement framework but also help in disti
 
 #### Elite Teams
 
-* Deployment Frequency: Elite teams deploy code to production multiple times per day or with a high frequency that suits the business needs.
-* Lead Time for Changes: The lead time is short, often less than a day, enabling rapid response to market changes or customer feedback.
-* Time to Restore Service: Elite teams can restore service in less than an hour following an incident or outage.
-* Change Failure Rate: A low change failure rate indicating a high level of reliability in changes made.
+- Deployment Frequency: Elite teams deploy code to production multiple times per day or with a high frequency that suits the business needs.
+- Lead Time for Changes: The lead time is short, often less than a day, enabling rapid response to market changes or customer feedback.
+- Time to Restore Service: Elite teams can restore service in less than an hour following an incident or outage.
+- Change Failure Rate: A low change failure rate indicating a high level of reliability in changes made.
 
 #### Average Teams
 
-* Deployment Frequency: Average teams may deploy weekly or bi-weekly, with much lower frequency compared to elite teams.
-* Lead Time for Changes: Lead time is longer, often extending to weeks, slowing the responsiveness to necessary changes.
-* Time to Restore Service: Restoration of service might take days or even longer in the event of an incident.
+- Deployment Frequency: Average teams may deploy weekly or bi-weekly, with much lower frequency compared to elite teams.
+- Lead Time for Changes: Lead time is longer, often extending to weeks, slowing the responsiveness to necessary changes.
+- Time to Restore Service: Restoration of service might take days or even longer in the event of an incident.
 Change Failure Rate: A higher change failure rate indicating a need for improved reliability and quality control.
 
 #### Path to Elite Performance
 
 Adopting Best Practices: Adopting best practices from elite teams, like continuous integration/continuous delivery, automated testing, and a culture of continuous improvement.
 
-* Investment in Tooling: Investing in the necessary tools and technology to automate and streamline processes.
-* Learning and Improvement: Encouraging a culture of learning and continuous improvement to move towards elite performance levels over time.
-* Measurement and Feedback: Regularly measuring performance using DORA metrics, and using feedback for iterative improvement.
+- Investment in Tooling: Investing in the necessary tools and technology to automate and streamline processes.
+- Learning and Improvement: Encouraging a culture of learning and continuous improvement to move towards elite performance levels over time.
+- Measurement and Feedback: Regularly measuring performance using DORA metrics, and using feedback for iterative improvement.
 
 ## Code Quality Metrics
 
@@ -522,11 +522,11 @@ Duplication: Code duplication is a sign of poor code quality and can lead to hig
 
 The choice of programming language can significantly impact the development process, affecting everything from the ease of writing code to the performance of the finished product.
 
-* Static vs Dynamic Typing: Static typing helps catch type errors at compile-time, while dynamic typing does at run-time. Each has its own set of advantages and trade-offs.
+- Static vs Dynamic Typing: Static typing helps catch type errors at compile-time, while dynamic typing does at run-time. Each has its own set of advantages and trade-offs.
 
-* Interpreted vs Compiled Languages: Compiled languages tend to offer better performance, while interpreted languages often provide more flexibility and ease of development.
+- Interpreted vs Compiled Languages: Compiled languages tend to offer better performance, while interpreted languages often provide more flexibility and ease of development.
 
-* Functional vs Object-Oriented Programming: Functional programming promotes immutability and first-class functions, while object-oriented programming emphasizes objects and classes.
+- Functional vs Object-Oriented Programming: Functional programming promotes immutability and first-class functions, while object-oriented programming emphasizes objects and classes.
 
 Popular Languages: Languages like Python, JavaScript, and Java continue to dominate the development landscape due to their robust ecosystems and broad applicability.
 
@@ -556,7 +556,7 @@ The community around .NET Core is active and growing. Microsoft, along with the 
 
 In conclusion, .NET Core's performance, cross-platform support, robust tooling, and active community make it a highly relevant and preferred choice for modern software development endeavors.
 
-## Version Control
+## Version Control Systems
 
 Version control systems (VCS) are fundamental for tracking changes in code over time, facilitating collaboration among developers, and ensuring traceability and accountability in software development projects.
 
@@ -747,29 +747,29 @@ Ensure that only authenticated and authorized users can access certain parts of 
 
 Protect data at rest and in transit using strong encryption techniques.
 
-### Secure Coding Practices
+### Secure Coding Practices and Testing
 
 Adopt coding practices that mitigate common security risks, like SQL injection and Cross-Site Scripting (XSS).
 
 Security Audits and Code Reviews: Regular security audits and code reviews can help identify vulnerabilities before they are exploited.
 
-### Breaking the Kill Chain:
+### Breaking the Kill Chain
 
 In the realm of cybersecurity, breaking the "kill chain" is a critical objective to protect systems and data from cyber threats. This defensive approach focuses on disrupting the stages of an attack rather than engaging in a futile debate between fact and faith-based approaches. By understanding the kill chain and employing science-based strategies, organizations can enhance their security posture and minimize risks. Additionally, organizations should take precautions to avoid exposing sensitive information such as their technology stack and user details on public platforms. This includes protecting against both passive and active reconnaissance techniques used by attackers. To defend against active reconnaissance, organizations can close unused ports and services, use honeypots to collect information about attackers, employ intrusion prevention systems, and block IP addresses from the Tor network and 3rd party VPN providers. When it comes to weaponization, it's essential to be aware of common attack tools such as Cain and Abel, SQLmap, Aircrack, Maltego Web App, Metasploit, Exploit-DB, Veil Framework, Social Engineering Toolkit, Wapiti, Burp Suite, and Frat Rat. Defensive strategies should also include patch management, disabling office macros, JavaScript and browser plugins, applying email security, enabling multi-factor authentication (MFA), and implementing audit logging.
 
 1. Passive Reconnaissance
-   * Passive techniques involve gathering information without directly interacting with the target.
-   * Defensive Strategy: Implement measures to prevent passive information gathering. Ensure that sensitive information is not exposed on public platforms such as Whois, ARIN, LinkedIn, Shodan, or the company website. Educate employees about not sharing sensitive details. Limit information in API response headers and server error messages to prevent leakage of valuable information.
+   - Passive techniques involve gathering information without directly interacting with the target.
+   - Defensive Strategy: Implement measures to prevent passive information gathering. Ensure that sensitive information is not exposed on public platforms such as Whois, ARIN, LinkedIn, Shodan, or the company website. Educate employees about not sharing sensitive details. Limit information in API response headers and server error messages to prevent leakage of valuable information.
 2. Active Reconnaissance
-   * Active techniques involve directly probing the target to gather information.
-   * Defensive Strategy: Protect against active reconnaissance by monitoring network traffic for suspicious activities. Employ intrusion detection systems to detect and block malicious scanning attempts. Utilize technologies like firewalls to restrict unauthorized access. Close unused ports and services to reduce the attack surface. Deploy honeypots to collect information about attackers and divert their attention. Consider blocking IP addresses from the Tor network and 3rd party VPN providers to prevent anonymous scanning and probing.
+   - Active techniques involve directly probing the target to gather information.
+   - Defensive Strategy: Protect against active reconnaissance by monitoring network traffic for suspicious activities. Employ intrusion detection systems to detect and block malicious scanning attempts. Utilize technologies like firewalls to restrict unauthorized access. Close unused ports and services to reduce the attack surface. Deploy honeypots to collect information about attackers and divert their attention. Consider blocking IP addresses from the Tor network and 3rd party VPN providers to prevent anonymous scanning and probing.
 3. Weaponization:
-    * Attack tools are employed to create or obtain malicious software.
-    * Common Attack Tools: Cain and Abel, SQLmap, Aircrack, Maltego Web App, Metasploit, Exploit-DB, Veil Framework, Social Engineering Toolkit, Wapiti, Burp Suite, Frat Rat.
-    * Defensive Strategy: Maintain a robust patch management program to keep software and systems up to date, reducing vulnerabilities. Disable unnecessary features like office macros to prevent execution of malicious code. Limit the use of JavaScript and browser plugins to reduce attack vectors. Apply email security solutions to detect and block phishing attempts. Implement multi-factor authentication (MFA) to enhance access control. Enable comprehensive audit logging to monitor and investigate suspicious activities.
-    * Attack tools are employed to create or obtain malicious software.
-    * Common Attack Tools: Cain and Abel, SQLmap, Aircrack, Maltego Web App, Metasploit, Exploit-DB, Veil Framework, Social Engineering Toolkit, Wapiti, Burp Suite, Frat Rat.
-    * Defensive Strategy: Maintain a robust patch management program to keep software and systems up to date, reducing vulnerabilities. Disable unnecessary features like office macros to prevent execution of malicious code. Limit the use of JavaScript and browser plugins to reduce attack vectors. Apply email security solutions to detect and block phishing attempts. Implement multi-factor authentication (MFA) to enhance access control. Enable comprehensive audit logging to monitor and investigate suspicious activities.
+    - Attack tools are employed to create or obtain malicious software.
+    - Common Attack Tools: Cain and Abel, SQLmap, Aircrack, Maltego Web App, Metasploit, Exploit-DB, Veil Framework, Social Engineering Toolkit, Wapiti, Burp Suite, Frat Rat.
+    - Defensive Strategy: Maintain a robust patch management program to keep software and systems up to date, reducing vulnerabilities. Disable unnecessary features like office macros to prevent execution of malicious code. Limit the use of JavaScript and browser plugins to reduce attack vectors. Apply email security solutions to detect and block phishing attempts. Implement multi-factor authentication (MFA) to enhance access control. Enable comprehensive audit logging to monitor and investigate suspicious activities.
+    - Attack tools are employed to create or obtain malicious software.
+    - Common Attack Tools: Cain and Abel, SQLmap, Aircrack, Maltego Web App, Metasploit, Exploit-DB, Veil Framework, Social Engineering Toolkit, Wapiti, Burp Suite, Frat Rat.
+    - Defensive Strategy: Maintain a robust patch management program to keep software and systems up to date, reducing vulnerabilities. Disable unnecessary features like office macros to prevent execution of malicious code. Limit the use of JavaScript and browser plugins to reduce attack vectors. Apply email security solutions to detect and block phishing attempts. Implement multi-factor authentication (MFA) to enhance access control. Enable comprehensive audit logging to monitor and investigate suspicious activities.
 
 #### Delivery
 
@@ -778,9 +778,9 @@ Attack vectors during delivery include malicious websites, social media phishing
 Delivery Phase Attack Vectors:
 
 1. Malicious Websites:
-    * Attackers may lure users to malicious websites containing malware or phishing content.
+    - Attackers may lure users to malicious websites containing malware or phishing content.
 2. Social Media Phishing:
-    * Social media platforms can be used for phishing attacks to trick users into revealing sensitive information.
+    - Social media platforms can be used for phishing attacks to trick users into revealing sensitive information.
 3. User Input:
 
 Attack vectors during delivery include malicious websites, social media phishing, user input, email, and even USB drives found in parking lots. Defensive strategies should encompass website filtering, DNS filtering, phishing campaigns to raise security awareness among employees, intrusion prevention and detection systems (IPS/IDS), DKIM & SPF email authentication, USB port disabling, and limiting user admin rights.
@@ -788,32 +788,32 @@ Attack vectors during delivery include malicious websites, social media phishing
 Delivery Phase Attack Vectors:
 
 1. Malicious Websites:
-   * Attackers may lure users to malicious websites containing malware or phishing content.
+   - Attackers may lure users to malicious websites containing malware or phishing content.
 2. Social Media Phishing:
-   * Social media platforms can be used for phishing attacks to trick users into revealing sensitive information.
+   - Social media platforms can be used for phishing attacks to trick users into revealing sensitive information.
 3. User Input:
-   * Attackers may exploit vulnerabilities through user input fields on websites and applications.
+   - Attackers may exploit vulnerabilities through user input fields on websites and applications.
 4. Email:
-   * Phishing emails with malicious attachments or links can be a vector for delivering threats.
+   - Phishing emails with malicious attachments or links can be a vector for delivering threats.
 5. USB Drives:
-   * USB drives left in parking lots or other areas may contain malware designed to infect systems when plugged in.
+   - USB drives left in parking lots or other areas may contain malware designed to infect systems when plugged in.
 
 ##### Defensive Strategies during the Delivery Phase
 
 1. Website Filtering:
-   * Implement website filtering solutions to block access to known malicious websites.
+   - Implement website filtering solutions to block access to known malicious websites.
 2. DNS Filtering:
-   * Use DNS filtering to prevent users from accessing malicious domains.
+   - Use DNS filtering to prevent users from accessing malicious domains.
 3. Phishing Awareness Campaigns:
-   * Conduct phishing awareness campaigns to educate employees and raise their awareness of social engineering attacks.
+   - Conduct phishing awareness campaigns to educate employees and raise their awareness of social engineering attacks.
 4. Intrusion Prevention and Detection Systems (IPS/IDS):
-   * Deploy IPS/IDS solutions to detect and block malicious network traffic.
+   - Deploy IPS/IDS solutions to detect and block malicious network traffic.
 5. Email Authentication (DKIM & SPF):
-   * Implement email authentication techniques like DKIM (DomainKeys Identified Mail) and SPF (Sender Policy Framework) to verify email sender authenticity and reduce email-based threats.
+   - Implement email authentication techniques like DKIM (DomainKeys Identified Mail) and SPF (Sender Policy Framework) to verify email sender authenticity and reduce email-based threats.
 6. USB Port Disabling:
-   * Disable USB ports on endpoints to prevent unauthorized use of external devices.
+   - Disable USB ports on endpoints to prevent unauthorized use of external devices.
 7. Limit User Admin Rights:
-   * Restrict user admin rights to minimize the potential impact of malicious software execution.
+   - Restrict user admin rights to minimize the potential impact of malicious software execution.
 
 By integrating these science-based defensive measures into their cybersecurity strategy, organizations can significantly reduce the risk of successful attacks during the delivery phase of the kill chain. This proactive approach helps disrupt the attack lifecycle and safeguard critical systems and data.
 
@@ -824,60 +824,60 @@ Attack vectors during exploitation include SQL injection, broken access control,
 ##### Exploitation Phase Attack Vectors
 
 1. SQL Injection:
-   * Attackers exploit vulnerabilities to inject malicious SQL queries into applications, potentially gaining unauthorized access to databases.
+   - Attackers exploit vulnerabilities to inject malicious SQL queries into applications, potentially gaining unauthorized access to databases.
 
 2. Broken Access Control:
-   * Weak or broken access controls can allow unauthorized users to access restricted resources.
+   - Weak or broken access controls can allow unauthorized users to access restricted resources.
 
 3. Cryptographic Failures:
-   * Weak or improperly implemented encryption can lead to data breaches.
+   - Weak or improperly implemented encryption can lead to data breaches.
 
 4. Injection Attacks:
-   * Injection attacks, including code and command injection, can enable attackers to execute malicious code within an application.
+   - Injection attacks, including code and command injection, can enable attackers to execute malicious code within an application.
 
 5. Insecure Design:
-   * Flaws in the design of software or systems can create vulnerabilities that attackers can exploit.
+   - Flaws in the design of software or systems can create vulnerabilities that attackers can exploit.
 
 6. Security Misconfigurations:
-   * Misconfigurations in software, servers, or cloud environments can expose systems to exploitation.
+   - Misconfigurations in software, servers, or cloud environments can expose systems to exploitation.
 
 7. Vulnerable and Outdated Components:
-   * Running outdated software or components with known vulnerabilities increases the risk of exploitation.
+   - Running outdated software or components with known vulnerabilities increases the risk of exploitation.
 
 8. Identification and Authentication Failures:
-   * Weak or flawed authentication mechanisms can lead to unauthorized access.
+   - Weak or flawed authentication mechanisms can lead to unauthorized access.
 
 9. Software and Data Integrity Failures:
-   * Failures to ensure the integrity of software and data can result in tampering and unauthorized modifications.
+   - Failures to ensure the integrity of software and data can result in tampering and unauthorized modifications.
 
 10. Security Logging and Monitoring Failures:
-    * Inadequate logging and monitoring can hinder the detection of security incidents.
+    - Inadequate logging and monitoring can hinder the detection of security incidents.
 
 11. Server-Side Request Forgery:
-    * Attackers manipulate the server into making unintended requests to internal resources.
+    - Attackers manipulate the server into making unintended requests to internal resources.
 
 12. Buffer Overflow:
-    * Exceeding the buffer's capacity can lead to the execution of malicious code.
+    - Exceeding the buffer's capacity can lead to the execution of malicious code.
 
 13. JavaScript Hijacking:
-    * Attackers exploit JavaScript vulnerabilities to manipulate web applications.
+    - Attackers exploit JavaScript vulnerabilities to manipulate web applications.
 
 14. Malware:
-    * Malicious software can be introduced to compromise systems and data.
+    - Malicious software can be introduced to compromise systems and data.
 
 ##### Defensive Strategies during the Exploitation Phase
 
 1. Data Execution Prevention:
-   * Employ data execution prevention mechanisms to block the execution of malicious code.
+   - Employ data execution prevention mechanisms to block the execution of malicious code.
 
 2. Anti-Exploit Measures:
-   * Implement anti-exploit solutions to mitigate common exploitation techniques.
+   - Implement anti-exploit solutions to mitigate common exploitation techniques.
 
 3. Sandboxing:
-   * Use sandboxing to isolate applications or processes from the rest of the system, limiting potential damage.
+   - Use sandboxing to isolate applications or processes from the rest of the system, limiting potential damage.
 
 4. Detect and Isolate Patient Zero:
-   * Detect malicious files on the machine of the initial infection (patient zero) and isolate it from the rest of the network to prevent lateral movement.
+   - Detect malicious files on the machine of the initial infection (patient zero) and isolate it from the rest of the network to prevent lateral movement.
 
 #### Installation phase
 
@@ -888,37 +888,37 @@ To effectively defend against these stages, it's crucial to address various atta
 Installation Phase Attack Vectors:
 
 1. DLL Hijacking:
-   * Attackers exploit vulnerable dynamic link library (DLL) loading mechanisms to execute malicious code.
+   - Attackers exploit vulnerable dynamic link library (DLL) loading mechanisms to execute malicious code.
 
 2. Meterpreter:
-   * Meterpreter is a post-exploitation tool that attackers can use to maintain control over compromised systems.
+   - Meterpreter is a post-exploitation tool that attackers can use to maintain control over compromised systems.
 
 3. Remote Access Tools:
-   * Attackers deploy remote access tools to gain persistent access to compromised systems.
+   - Attackers deploy remote access tools to gain persistent access to compromised systems.
 
 4. Registry Changes:
-   * Malicious changes to the Windows Registry can enable persistence and control.
+   - Malicious changes to the Windows Registry can enable persistence and control.
 
 5. PowerShell Commands:
-   * Attackers leverage PowerShell for scripting and executing malicious commands on compromised systems.
+   - Attackers leverage PowerShell for scripting and executing malicious commands on compromised systems.
 
 Defensive Strategies during the Installation Phase:
 
 1. Protection (Protect):
-   * On Linux systems, utilize chroot to create a confined environment to limit the impact of potential attacks.
-   * On Windows systems, consider disabling PowerShell when not needed to reduce the attack surface.
+   - On Linux systems, utilize chroot to create a confined environment to limit the impact of potential attacks.
+   - On Windows systems, consider disabling PowerShell when not needed to reduce the attack surface.
 
 2. Detection (Detect):
-   * Implement User and Entity Behavior Analytics (UBA) and Endpoint Detection and Response (EDR) tools to alert on unexpected registry changes and file system activities.
+   - Implement User and Entity Behavior Analytics (UBA) and Endpoint Detection and Response (EDR) tools to alert on unexpected registry changes and file system activities.
 
 3. Response (Respond):
-   * Unusual activity detected during installation should trigger alerts.
-   * Follow well-defined incident response Standard Operating Procedures (SOPs):
-     * Identify the compromised device and isolate it from the network.
-     * Change all compromised credentials that were used on the compromised device.
+   - Unusual activity detected during installation should trigger alerts.
+   - Follow well-defined incident response Standard Operating Procedures (SOPs):
+     - Identify the compromised device and isolate it from the network.
+     - Change all compromised credentials that were used on the compromised device.
 
 4. Restore (Restore):
-   * Wipe the infected system and restore it to a defined, secure state from a known-good backup.
+   - Wipe the infected system and restore it to a defined, secure state from a known-good backup.
 
 #### Command and control phase
 
@@ -929,30 +929,30 @@ During the command and control phase, attackers attempt to establish and maintai
 Defensive Strategies during the Command and Control Phase:
 
 1. Network Segmentation:
-   * Implement network segmentation to isolate critical assets from potentially compromised areas of the network. This limits lateral movement for attackers.
+   - Implement network segmentation to isolate critical assets from potentially compromised areas of the network. This limits lateral movement for attackers.
 
 2. Zero Trust Micro-Segmentation (Assume Breach):
-   * Adopt a zero-trust micro-segmentation approach, assuming that attackers are already inside the network. This approach enforces strict access controls, limiting communications to only what is necessary.
+   - Adopt a zero-trust micro-segmentation approach, assuming that attackers are already inside the network. This approach enforces strict access controls, limiting communications to only what is necessary.
 
 3. Next-Generation Firewalls (NGFW) - C&C Blocking:
-   * Utilize Next-Generation Firewalls (NGFW) to actively identify and block command and control traffic patterns used by attackers.
+   - Utilize Next-Generation Firewalls (NGFW) to actively identify and block command and control traffic patterns used by attackers.
 
 4. DNS Redirection:
-   * Implement DNS redirection to reroute suspicious traffic away from malicious command and control servers.
+   - Implement DNS redirection to reroute suspicious traffic away from malicious command and control servers.
 
 5. Application Control (e.g., Telnet):
-   * Employ application control measures to restrict or monitor the use of potentially risky applications like Telnet, which can be used by attackers for unauthorized access.
+   - Employ application control measures to restrict or monitor the use of potentially risky applications like Telnet, which can be used by attackers for unauthorized access.
 
 6. Full SSL Packet Inspection:
-   * Conduct full SSL packet inspection to analyze encrypted traffic and detect any data exfiltration attempts, even if it's hidden within encrypted connections.
+   - Conduct full SSL packet inspection to analyze encrypted traffic and detect any data exfiltration attempts, even if it's hidden within encrypted connections.
 
 7. Indicators of Compromise (IoC):
-   * Use IoCs to detect signs of compromise and potential threats. These can include known malicious IP addresses, file hashes, and behavioral patterns associated with attacks.
+   - Use IoCs to detect signs of compromise and potential threats. These can include known malicious IP addresses, file hashes, and behavioral patterns associated with attacks.
 
 #### Actions on Objectives
 
-* Data encryption, access controls, incident response plans.
-* Defensive Strategy: Encrypt data, implement access controls, and create incident response plans.
+- Data encryption, access controls, incident response plans.
+- Defensive Strategy: Encrypt data, implement access controls, and create incident response plans.
 
 By integrating these science-based defensive measures into their cybersecurity strategy, organizations can significantly disrupt the entire kill chain. This proactive approach helps prevent attackers from gathering information, delivering malicious payloads, exploiting vulnerabilities, establishing control, and achieving their malicious objectives. It enhances overall cybersecurity defenses, making it more challenging for attackers to compromise systems and data.
 
@@ -976,42 +976,42 @@ This integration of Attack Path Management tools provides a more comprehensive u
 
 **Pros:**
 
-* Detects vulnerabilities early in the development cycle.
-* Scans source code for known vulnerability patterns.
+- Detects vulnerabilities early in the development cycle.
+- Scans source code for known vulnerability patterns.
 
 **Cons:**
 
-* May produce false positives.
-* Requires access to source code.
-* Dynamic Application Security Testing (DAST):
+- May produce false positives.
+- Requires access to source code.
+- Dynamic Application Security Testing (DAST):
 
 **Pros:**
 
-* Identifies vulnerabilities in running applications.
-* Does not require source code access.
+- Identifies vulnerabilities in running applications.
+- Does not require source code access.
 
 **Cons:**
 
-* May miss vulnerabilities not exposed in publicly facing parts of the application.
-* Typically conducted later in the development cycle, making fixing issues more costly.
-* Interactive Application Security Testing (IAST):
+- May miss vulnerabilities not exposed in publicly facing parts of the application.
+- Typically conducted later in the development cycle, making fixing issues more costly.
+- Interactive Application Security Testing (IAST):
 
 **Pros:**
 
-* Combines aspects of SAST and DAST for more thorough analysis.
-* Identifies vulnerabilities in real-time during testing.
+- Combines aspects of SAST and DAST for more thorough analysis.
+- Identifies vulnerabilities in real-time during testing.
 
 **Cons:**
 
-* May require more setup and configuration.
-* Can be slower than SAST or DAST alone.
+- May require more setup and configuration.
+- Can be slower than SAST or DAST alone.
 
 **Other Useful Tools:**
 
-* Dependency Checkers: Tools like OWASP Dependency-Check can identify known vulnerabilities in third-party libraries and dependencies.
-* Security Linters: Security-focused linters can provide instant feedback on code security as developers write code.
-* Configuration Scanners: Tools that scan system and application configurations for insecure settings.
-* Credential Scanner: Tools that scan code for hard-coded credentials.
+- Dependency Checkers: Tools like OWASP Dependency-Check can identify known vulnerabilities in third-party libraries and dependencies.
+- Security Linters: Security-focused linters can provide instant feedback on code security as developers write code.
+- Configuration Scanners: Tools that scan system and application configurations for insecure settings.
+- Credential Scanner: Tools that scan code for hard-coded credentials.
 
 By incorporating a variety of these tools into the development process, organizations can significantly enhance the security posture of their software, identify vulnerabilities early, and ensure a well-rounded approach to securing both the application code and the environments in which they operate.
 
@@ -1019,11 +1019,11 @@ By incorporating a variety of these tools into the development process, organiza
 
 Incident Response Plan: Have a plan in place for identifying, responding to, and recovering from security incidents. In incident handling, adopt the "Aviate, Navigate, Communicate" pattern:
 
-* Aviate: Prioritize in stabilizing the situation to prevent further damage. This could involve isolating affected systems or networks to contain the incident.
+- Aviate: Prioritize in stabilizing the situation to prevent further damage. This could involve isolating affected systems or networks to contain the incident.
 
-* Navigate: Understand the scope and impact of the incident. This involves gathering data and analyzing the situation to make informed decisions on the next steps.
+- Navigate: Understand the scope and impact of the incident. This involves gathering data and analyzing the situation to make informed decisions on the next steps.
 
-* Communicate: Inform relevant stakeholders, both internal and external, about the incident and the measures being taken to resolve it. Clear communication during and after the incident is crucial for managing expectations and maintaining trust.
+- Communicate: Inform relevant stakeholders, both internal and external, about the incident and the measures being taken to resolve it. Clear communication during and after the incident is crucial for managing expectations and maintaining trust.
 
 Following this pattern ensures a structured and effective response to security incidents, helping to mitigate potential damage and ensure a swift recovery.
 
