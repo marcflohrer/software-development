@@ -46,7 +46,7 @@ Debugging transcends beyond the mere act of fixing errors; it’s a meticulous b
 
 Debugging is an indispensable aspect of software development, a realm where problems are not roadblocks but stepping stones towards mastery. Embracing a structured approach towards debugging, armed with the powerful tools at disposal and a mindset geared towards learning and exploration, developers are not merely fixing errors; they are mastering the art of software development, one bug at a time.
 
-## Chapter 3: Refactoring
+## Refactoring
 
 ### Introduction to Refactoring
 
@@ -176,7 +176,7 @@ Keeping functions small and focused enhances their readability and maintainabili
 
 #### Meaningful Names
 
-Selecting meaningful names for functions is a continuation of the naming conventions discussed in Chapter Y.
+Selecting meaningful names for functions is a continuation of the naming conventions discussed in Chapter **Functions**.
 
 - **Self-Documentation**: A well-chosen name can serve as a form of documentation, clearly indicating what the function does.
 - **Enhanced Readability**: Meaningful names enhance the readability of the code, making it easier for developers to understand the codebase.
@@ -206,7 +206,7 @@ Employing principles such as Single Responsibility, Open Closed Principle, Lisko
 
 Proper formatting is a cornerstone of clean code, offering a structured and consistent visual presentation of the codebase. It entails adhering to indentation norms, keeping a consistent naming convention, and organizing code blocks logically. Well-formatted code is easier to read, understand, and debug.
 
-### Chapter X: Exception Handling
+### Exception Handling
 
 Exception handling is a crucial aspect of building robust, reliable, and user-friendly software. It enables a program to deal gracefully with unexpected conditions or errors during execution. This chapter elucidates the principles and best practices of effective exception handling that contribute to software quality and maintainability.
 
