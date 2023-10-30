@@ -1112,6 +1112,94 @@ The SolarWinds incident underscores the necessity for a proactive and layered ap
 
 By incorporating a variety of these tools into the development process, organizations can significantly enhance the security posture of their software, identify vulnerabilities early, and ensure a well-rounded approach to securing both the application code and the environments in which they operate.
 
+### Security Core Domains
+
+In order to maintain a comprehensive and resilient cybersecurity posture, it's essential to address security across a variety of core domains. Each domain represents a facet of security that requires dedicated attention, strategies, and tools to manage effectively. Below are the key security core domains:
+
+#### Cyber Security Governance
+
+Cybersecurity governance entails the establishment of a framework to guide the management of cybersecurity across an organization.
+
+#### Policy and Standards
+
+Developing, implementing, and maintaining security policies and standards is crucial for providing clear guidelines and expectations concerning cybersecurity.
+
+#### Risk Management
+
+Identifying, assessing, and mitigating cybersecurity risks is a continuous process that supports an organization's security posture.
+
+#### Vendor Risk Management
+
+Evaluating and managing the risks posed by vendors, especially those who have access to organizational systems or data.
+
+#### Human Resource Security
+
+Ensuring that employees and contractors understand their security responsibilities and are equipped to fulfill them.
+
+#### Customer Security
+
+Protecting customer data and ensuring that customers can interact with your organization securely.
+
+#### Security Architecture
+
+Designing and implementing a security architecture helps to ensure that security controls are integrated into the organization’s information systems.
+
+#### Security Engineering
+
+Applying security principles to the design, development, and operation of systems.
+
+#### Security Testing and Assessment
+
+Regular testing of security measures is crucial for identifying vulnerabilities and ensuring that systems and processes are secure.
+
+#### Security Operations
+
+The day-to-day activities involved in maintaining security, including monitoring, detection, incident response, and recovery.
+
+#### Security Incident Management & Forensics
+
+Managing and investigating security incidents to prevent recurrence and understand the incident’s impact.
+
+#### Endpoint Security
+
+Securing endpoints like computers, smartphones, and other devices that connect to the network.
+
+#### Network Security
+
+Implementing measures to protect the integrity, confidentiality, and availability of data as it is transmitted across or accessed through network systems.
+
+#### Infrastructure Security
+
+Ensuring that organizational infrastructure, including physical and virtual resources, is protected against security threats.
+
+#### Cloud Security
+
+Addressing the unique security challenges associated with operating in cloud environments.
+
+#### Application Security
+
+Securing software applications against threats and vulnerabilities.
+
+#### Identity and Access Management
+
+Managing the identification and authentication of users and controlling their access to organizational resources.
+
+#### Physical and Environmental Security
+
+Protecting physical assets and ensuring that environmental controls are in place to support cybersecurity.
+
+#### Asset Management
+
+Identifying, managing, and protecting organizational assets across their lifecycle.
+
+#### Regulatory Compliance
+
+Ensuring compliance with relevant legal, regulatory, and contractual obligations.
+
+#### Information Security Continuity
+
+Maintaining and recovering security capabilities, even in the event of disruptions or incidents.
+
 ### How Much Security is Enough?
 
 Determining the right level of security is a nuanced process that balances risk, cost, and usability. Here's a structured approach to help answer the question, "how much security is enough?":
